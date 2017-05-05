@@ -14,13 +14,13 @@
   <a href="https://circleci.com/gh/posquit0/Awesome-CV">
     <img alt="CircleCI" src="https://circleci.com/gh/posquit0/Awesome-CV.svg?style=shield" />
   </a>
-  <a href="https://raw.githubusercontent.com/posquit0/Awesome-CV/master/examples/resume.pdf">
+  <a href="https://latexonline.cc/compile?git=https://github.com/posquit0/Awesome-CV&target=examples/resume.tex&command=xelatex">
     <img alt="Example Resume" src="https://img.shields.io/badge/resume-pdf-green.svg" />
   </a>
-  <a href="https://raw.githubusercontent.com/posquit0/Awesome-CV/master/examples/cv.pdf">
+  <a href="https://latexonline.cc/compile?git=https://github.com/posquit0/Awesome-CV&target=examples/cv.tex&command=xelatex">
     <img alt="Example CV" src="https://img.shields.io/badge/cv-pdf-green.svg" />
   </a>
-  <a href="https://raw.githubusercontent.com/posquit0/Awesome-CV/master/examples/coverletter.pdf">
+  <a href="https://latexonline.cc/compile?git=https://github.com/posquit0/Awesome-CV&target=examples/coverletter.tex&command=xelatex&workdir=.">
     <img alt="Example Coverletter" src="https://img.shields.io/badge/coverletter-pdf-green.svg" />
   </a>
 </div>
@@ -36,19 +36,19 @@
 
 #### Résumé
 
-You can see [PDF](https://raw.githubusercontent.com/posquit0/Awesome-CV/master/examples/resume.pdf)
+You can see [PDF](https://latexonline.cc/compile?git=https://github.com/posquit0/Awesome-CV&target=examples/resume.tex&command=xelatex)
 
 | Page. 1 | Page. 2 |
 |:---:|:---:|
-| [![Résumé](https://raw.githubusercontent.com/posquit0/Awesome-CV/master/examples/resume-0.png)](https://raw.githubusercontent.com/posquit0/Awesome-CV/master/examples/resume.pdf)  | [![Résumé](https://raw.githubusercontent.com/posquit0/Awesome-CV/master/examples/resume-1.png)](https://raw.githubusercontent.com/posquit0/Awesome-CV/master/examples/resume.pdf) |
+| [![Résumé](https://raw.githubusercontent.com/posquit0/Awesome-CV/master/examples/resume-0.png)](https://latexonline.cc/compile?git=https://github.com/posquit0/Awesome-CV&target=examples/resume.tex&command=xelatex)  | [![Résumé](https://raw.githubusercontent.com/posquit0/Awesome-CV/master/examples/resume-1.png)](https://latexonline.cc/compile?git=https://github.com/posquit0/Awesome-CV&target=examples/resume.tex&command=xelatex) |
 
 #### Cover Letter
 
-You can see [PDF](https://raw.githubusercontent.com/posquit0/Awesome-CV/master/examples/coverletter.pdf)
+You can see [PDF](https://latexonline.cc/compile?git=https://github.com/posquit0/Awesome-CV&target=examples/coverletter.tex&command=xelatex&workdir=.)
 
 | Without Sections | With Sections |
 |:---:|:---:|
-| [![Cover Letter(Traditional)](https://raw.githubusercontent.com/posquit0/Awesome-CV/master/examples/coverletter-0.png)](https://raw.githubusercontent.com/posquit0/Awesome-CV/master/examples/coverletter.pdf)  | [![Cover Letter(Awesome)](https://raw.githubusercontent.com/posquit0/Awesome-CV/master/examples/coverletter-1.png)](https://raw.githubusercontent.com/posquit0/Awesome-CV/master/examples/coverletter.pdf) |
+| [![Cover Letter(Traditional)](https://raw.githubusercontent.com/posquit0/Awesome-CV/master/examples/coverletter-0.png)](https://latexonline.cc/compile?git=https://github.com/posquit0/Awesome-CV&target=examples/coverletter.tex&command=xelatex&workdir=.)  | [![Cover Letter(Awesome)](https://raw.githubusercontent.com/posquit0/Awesome-CV/master/examples/coverletter-1.png)](https://latexonline.cc/compile?git=https://github.com/posquit0/Awesome-CV&target=examples/coverletter.tex&command=xelatex&workdir=.) |
 
 
 ## <a name="quick-start">Quick Start
@@ -59,6 +59,15 @@ You can see [PDF](https://raw.githubusercontent.com/posquit0/Awesome-CV/master/e
 * [**Edit Cover Letter on ShareLaTeX.com**](https://www.sharelatex.com/templates/cover-letters/awesome-cv-cover-letter)
 
 **_Note:_ Above services do not guarantee up-to-date source code of Awesome CV**
+
+**or** use [LaTeX.Online](https://latexonline.cc) Cloud compiler:
+
+1. Fork this repo
+2. Edit files and commit changes
+3. Use path to your fork in the `?git=` section of the following URLs to compile your PDFs:
+    - CV: `https://latexonline.cc/compile?git=https://github.com/posquit0/Awesome-CV&target=examples/cv.tex&command=xelatex`
+    - Resume: `https://latexonline.cc/compile?git=https://github.com/posquit0/Awesome-CV&target=examples/resume.tex&command=xelatex`
+    - CoverLetter: `https://latexonline.cc/compile?git=https://github.com/posquit0/Awesome-CV&target=examples/coverletter.tex&command=xelatex&workdir=.`
 
 
 ## <a name="how-to-use">How to Use
